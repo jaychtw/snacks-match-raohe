@@ -1,0 +1,296 @@
+{
+  "createdUTC": "2026-10-24T10:44:42.346999+00:00",
+  "commit": null,
+  "sourceState": "Local validation preceded source publication; documentation subsequently clarified the user-authorized push to main. Runtime source and built assets are unchanged.",
+  "sourceManifestSHA256": "7cc48afc899200aa32e81966cfcd956407a2f5089a843145d636ca4895830202",
+  "source": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "524ac92dee121002ce5e79668e5e83cdd007dc29bda31e38b55b151bca0c24a8",
+      "bytes": 638
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "sha256": "8a3d9b973ddd3dc558edfc291a12a7114709eb7e44ff66856ab776ec90468424",
+      "bytes": 1141
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c882bd9af6e4aa8c768fc939c5981822e77a3b17c7b0d1f138afde35a9a1d03d",
+      "bytes": 61
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "93cc7075e08029c71b7eb45fee1ffc3036d97bf1b6f147e55765604fece690f2",
+      "bytes": 823
+    },
+    {
+      "path": "README.md",
+      "sha256": "d2a02c35284f5d190a8c9194b2a22b7d04ac769d35ad5dcf1ca4cdfb882740d3",
+      "bytes": 3826
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "1faa98c32b7d391843d3b7db08faffee84c504bff5988f8276d140a0f8527034",
+      "bytes": 5555
+    },
+    {
+      "path": "docs/ASSETS.md",
+      "sha256": "d26e27dae545dc5d8679f11fc3913be43bc825ff57afecdb8569cfe5d7638ab1",
+      "bytes": 1667
+    },
+    {
+      "path": "docs/design/GDD-v1.0.md",
+      "sha256": "8fbe237b555c405fc48f87584be2782e274a481c0e5a2fd9698eb8c224fb0374",
+      "bytes": 13430
+    },
+    {
+      "path": "docs/design/UGDS-v1.0.0.md",
+      "sha256": "0dcbc47f98436284f595badddd084a016ebefe67f2de9a78c9290f81cef5b2d5",
+      "bytes": 11181
+    },
+    {
+      "path": "index.html",
+      "sha256": "4b5cfadccc13807f9c192e389b6160b2dbf3c8c2258fe4919a94fdd32ebc5c51",
+      "bytes": 488
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "7eaadfbfa08e0f88e3573b271ed833b36d88f1860bdaad3a6469cce1c3813737",
+      "bytes": 39128
+    },
+    {
+      "path": "package.json",
+      "sha256": "41954c1fdb98c845f492728972f68a2e5e13aad4ed62f5f12f03d96d3000abab",
+      "bytes": 747
+    },
+    {
+      "path": "playwright.config.ts",
+      "sha256": "4290ad853e5738dc7763adcf23ace30da28624c620f7984815d5dfc38667167b",
+      "bytes": 594
+    },
+    {
+      "path": "public/art/gate.webp",
+      "sha256": "08404c693d75637802bf0baaf569d36a30304b491cef22e0c614d5cbd8d66399",
+      "bytes": 274136
+    },
+    {
+      "path": "public/art/market.webp",
+      "sha256": "69b8c36d0ae6432e111f6c6f8a341c6a992e1c6cb66b73f54f386ede92c0a5c7",
+      "bytes": 328472
+    },
+    {
+      "path": "public/art/snacks.webp",
+      "sha256": "3eb9a9396c3bda2d502a20672faab62291f20c2af43605bc91be7e9c75c6009c",
+      "bytes": 373474
+    },
+    {
+      "path": "scripts/cloud-install.sh",
+      "sha256": "317b8d811556897db100602ec4fdf6403fc889ba50eb65e292626ccd24360cc0",
+      "bytes": 278
+    },
+    {
+      "path": "scripts/validate-levels.mjs",
+      "sha256": "a010694c7b4af45c8db0d680a28932aa09118ae0c8240e5d44203b3628c34b7c",
+      "bytes": 3069
+    },
+    {
+      "path": "scripts/verify-site.mjs",
+      "sha256": "f1e774772b3b76c9b15bdecc1b5fca7471136839d02a2873222d22eca7184bc8",
+      "bytes": 3491
+    },
+    {
+      "path": "src/animation.ts",
+      "sha256": "529e10623cd4751d252f7deeca973f5d4d8789e12dd30d3faf759c872e534f53",
+      "bytes": 3339
+    },
+    {
+      "path": "src/audio.ts",
+      "sha256": "a0a934d4a72106f1e05b42e506b299d8db8eef937e0a5c18d4fa6ddb1aafaf4b",
+      "bytes": 2629
+    },
+    {
+      "path": "src/controller.ts",
+      "sha256": "5eceea59d5dd1a5f493c11b13d31aa03ad33cc375140fcad53acd94d8dfcdc59",
+      "bytes": 2106
+    },
+    {
+      "path": "src/i18n.ts",
+      "sha256": "279b6ce9d3de70323a15432b3e78885b527e0c859ce2412b0b80179aa6b0db11",
+      "bytes": 19353
+    },
+    {
+      "path": "src/icons.ts",
+      "sha256": "2360f612e9c7b6452852d6ecd8bce3bb565c829bb709111e5aa2aae79a75676c",
+      "bytes": 1011
+    },
+    {
+      "path": "src/level.ts",
+      "sha256": "2ef28677e22479a403de4ecccd0e1c171516015506188fe6ac98786bb68ac474",
+      "bytes": 7234
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "a82efca47267395803566681ec8a9b30158019f90c15d9cd22b305f015e1fc06",
+      "bytes": 33225
+    },
+    {
+      "path": "src/pieces.ts",
+      "sha256": "17dc22871280425deffffa66562f044ef741f27dc929d6d127eed92259d5cf20",
+      "bytes": 601
+    },
+    {
+      "path": "src/progress.ts",
+      "sha256": "3defa222f5d7f76851572f2e1936778c397a775d30d2680ccfa503ee0192ad51",
+      "bytes": 1693
+    },
+    {
+      "path": "src/projection.ts",
+      "sha256": "8a438c232a5ab1b873427caec27d7de6d3e1f6e0e68efa2135c75c333e5fba38",
+      "bytes": 2259
+    },
+    {
+      "path": "src/session.ts",
+      "sha256": "0bcf62ee7749f20240cca3a3f58172f5269d3cdb2362e497100307b5fb7d9d61",
+      "bytes": 3112
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "525b131f88fc74479db258cefcc005f50e7b330d26356a9c5f209f50b42801b1",
+      "bytes": 28
+    },
+    {
+      "path": "src/theme.css",
+      "sha256": "d8a1bfa69656df15e9f5bbc022bccb877aa325a8679d1704be39295970a5d268",
+      "bytes": 19921
+    },
+    {
+      "path": "tests/browser/production.spec.ts",
+      "sha256": "d34ae73b96aa8926de13c3d061d96b93b4da37a2daa1b46ae4f1f4a50a9f3590",
+      "bytes": 10186
+    },
+    {
+      "path": "tests/browser/raohe.spec.ts",
+      "sha256": "f41307fdc1cf7fb8d567687a2f2ae0de7176acc9ace161dd6c03d969b6e19e71",
+      "bytes": 9837
+    },
+    {
+      "path": "tests/browser/touch-navigation.spec.ts",
+      "sha256": "31c0d5f81d906e25d0900902aa21144c72c93ba8e98c0c6c7a5f5fc7f098a575",
+      "bytes": 3601
+    },
+    {
+      "path": "tests/engine-failure-fixtures.json",
+      "sha256": "3e5ffb99532cb651bed077aa34bf7e92f02dfe75b74422331b9417c1cd31c763",
+      "bytes": 3504
+    },
+    {
+      "path": "tests/fixtures.mjs",
+      "sha256": "9fb5e1882d57be2c99e6f592a7df2df3d3cb822f5e1011a62ccdd06a37b73636",
+      "bytes": 2307
+    },
+    {
+      "path": "tests/foundation.test.mjs",
+      "sha256": "ad794faba1f2648e0f35e9a86253385fca019821b3e94be0c2c20cb2e76a850f",
+      "bytes": 1697
+    },
+    {
+      "path": "tests/gameplay.test.mjs",
+      "sha256": "935c7fbc63072bca5d383faad221445534403fee69c457d61e4681c453121f17",
+      "bytes": 10584
+    },
+    {
+      "path": "tests/production.test.mjs",
+      "sha256": "2d3f2bee3466718da821cee0aa05d751c89e0b43b160414d33444467fa0f9461",
+      "bytes": 4053
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "4529e886886ef3e007c156fe7711bd1e34c7eda29159da692eeced6472f8f88b",
+      "bytes": 319
+    },
+    {
+      "path": "vendor/SHA256SUMS",
+      "sha256": "daf62c92ae4c3851ab176c865992c6531478edfa50e15ba49dceaf9b0b45c052",
+      "bytes": 96
+    },
+    {
+      "path": "vendor/jaychtw-match3-core-1.0.0.tgz",
+      "sha256": "9513ff12d24ff8b139b593167083ea3dc7390ae17690f495ee4c80de53e5a853",
+      "bytes": 51943
+    },
+    {
+      "path": "vendor/release-evidence.json",
+      "sha256": "2917e98ba13660f494ea04abfa3bcf4e197589e591bab78c8168e7b22bbb9079",
+      "bytes": 307
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "320350dced549cebe2ae248283028ee7ae0fdbb36576a694f70cfbd755f3a30d",
+      "bytes": 82
+    }
+  ],
+  "dist": [
+    {
+      "path": "art/gate.webp",
+      "sha256": "08404c693d75637802bf0baaf569d36a30304b491cef22e0c614d5cbd8d66399",
+      "bytes": 274136
+    },
+    {
+      "path": "art/market.webp",
+      "sha256": "69b8c36d0ae6432e111f6c6f8a341c6a992e1c6cb66b73f54f386ede92c0a5c7",
+      "bytes": 328472
+    },
+    {
+      "path": "art/snacks.webp",
+      "sha256": "3eb9a9396c3bda2d502a20672faab62291f20c2af43605bc91be7e9c75c6009c",
+      "bytes": 373474
+    },
+    {
+      "path": "assets/index-BznZrNrd.css",
+      "sha256": "e17bb61633154e0a9392f7c46c3947a4c4473f31e1dd5acefd5f619b7dae38c7",
+      "bytes": 19934
+    },
+    {
+      "path": "assets/index-C7nikXUL.js",
+      "sha256": "09904a8641728581df4c70f6d1007310149272b65320a9bc46d2f3e71b3f2067",
+      "bytes": 75110
+    },
+    {
+      "path": "index.html",
+      "sha256": "abf3e2d612ff5f55c8e40ffd9276341c51cdccd4e7c8999723a50c70f3c0868b",
+      "bytes": 590
+    }
+  ],
+  "attachedConceptSHA256": "bbbe3bcbf5a894dd54d0d6f340654e353cf6e3d3d5cd13c72d7e6b979ac5cc76",
+  "core": {
+    "version": "1.0.0",
+    "commit": "9863f8e023a227540a58491282e87d9f11a0cf79",
+    "tarballSHA256": "9513ff12d24ff8b139b593167083ea3dc7390ae17690f495ee4c80de53e5a853"
+  },
+  "results": {
+    "core": {
+      "passed": 112,
+      "failed": 0,
+      "skipped": 0
+    },
+    "app": {
+      "passed": 55,
+      "failed": 0,
+      "skipped": 0
+    },
+    "browser": {
+      "passed": 25,
+      "failed": 0,
+      "skipped": 0
+    },
+    "levelWinWitnesses": 15,
+    "levelLossWitnesses": 15
+  },
+  "publicationAtValidation": {
+    "sourcePushed": false,
+    "hostedCIVerified": false,
+    "publiclyDeployed": false,
+    "humanCreativeAcceptance": false
+  }
+}

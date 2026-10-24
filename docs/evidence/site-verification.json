@@ -1,0 +1,58 @@
+{
+  "target": "http://127.0.0.1:4180/snacks-match-raohe/",
+  "scope": "local static-host simulation",
+  "commit": null,
+  "files": [
+    {
+      "name": "index.html",
+      "sha256": "abf3e2d612ff5f55c8e40ffd9276341c51cdccd4e7c8999723a50c70f3c0868b",
+      "bytes": 590
+    },
+    {
+      "name": "art/gate.webp",
+      "sha256": "08404c693d75637802bf0baaf569d36a30304b491cef22e0c614d5cbd8d66399",
+      "bytes": 274136
+    },
+    {
+      "name": "art/market.webp",
+      "sha256": "69b8c36d0ae6432e111f6c6f8a341c6a992e1c6cb66b73f54f386ede92c0a5c7",
+      "bytes": 328472
+    },
+    {
+      "name": "art/snacks.webp",
+      "sha256": "3eb9a9396c3bda2d502a20672faab62291f20c2af43605bc91be7e9c75c6009c",
+      "bytes": 373474
+    },
+    {
+      "name": "assets/index-BznZrNrd.css",
+      "sha256": "e17bb61633154e0a9392f7c46c3947a4c4473f31e1dd5acefd5f619b7dae38c7",
+      "bytes": 19934
+    },
+    {
+      "name": "assets/index-C7nikXUL.js",
+      "sha256": "09904a8641728581df4c70f6d1007310149272b65320a9bc46d2f3e71b3f2067",
+      "bytes": 75110
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1100,
+      "turns": 3,
+      "exactState": true,
+      "reload": true,
+      "liveLanguageSwitch": true,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "turns": 3,
+      "exactState": true,
+      "reload": true,
+      "liveLanguageSwitch": true,
+      "pageErrors": []
+    }
+  ],
+  "status": "passed"
+}

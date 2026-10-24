@@ -1,0 +1,44 @@
+{
+  "SHUFFLE_LIMIT": {
+    "seed": 0,
+    "state": "{\"version\":1,\"config\":{\"rows\":3,\"cols\":3,\"pieceTypes\":[\"a\",\"b\",\"c\",\"d\",\"e\",\"f\"],\"rules\":{\"matchLength\":3,\"createFour\":true,\"createFive\":true,\"createIntersection\":true,\"specialSwaps\":true,\"bombRadius\":1,\"comboLineRadius\":1},\"scoring\":{\"piecePoints\":10,\"specialBonus\":20,\"cascadeStep\":1},\"objectives\":[],\"moveLimit\":null,\"maxWaves\":100,\"shuffleAttempts\":1,\"generationAttempts\":100},\"board\":[[{\"id\":1,\"type\":\"d\",\"special\":null},{\"id\":2,\"type\":\"e\",\"special\":null},{\"id\":3,\"type\":\"f\",\"special\":null}],[{\"id\":4,\"type\":\"e\",\"special\":null},{\"id\":5,\"type\":\"d\",\"special\":null},{\"id\":6,\"type\":\"c\",\"special\":null}],[{\"id\":7,\"type\":\"a\",\"special\":null},{\"id\":8,\"type\":\"d\",\"special\":null},{\"id\":9,\"type\":\"f\",\"special\":null}]],\"rng\":4165806054,\"nextId\":10,\"moves\":0,\"score\":0,\"cleared\":{\"a\":0,\"b\":0,\"c\":0,\"d\":0,\"e\":0,\"f\":0},\"status\":\"playing\"}",
+    "action": {
+      "from": {
+        "row": 0,
+        "col": 0
+      },
+      "to": {
+        "row": 0,
+        "col": 1
+      }
+    }
+  },
+  "RESOLUTION_LIMIT": {
+    "seed": 0,
+    "state": "{\"version\":1,\"config\":{\"rows\":3,\"cols\":3,\"pieceTypes\":[\"a\",\"b\",\"c\"],\"rules\":{\"matchLength\":3,\"createFour\":true,\"createFive\":true,\"createIntersection\":true,\"specialSwaps\":true,\"bombRadius\":1,\"comboLineRadius\":1},\"scoring\":{\"piecePoints\":10,\"specialBonus\":20,\"cascadeStep\":1},\"objectives\":[],\"moveLimit\":null,\"maxWaves\":1,\"shuffleAttempts\":1000,\"generationAttempts\":100},\"board\":[[{\"id\":1,\"type\":\"b\",\"special\":null},{\"id\":2,\"type\":\"c\",\"special\":null},{\"id\":3,\"type\":\"c\",\"special\":null}],[{\"id\":4,\"type\":\"c\",\"special\":null},{\"id\":5,\"type\":\"b\",\"special\":null},{\"id\":6,\"type\":\"b\",\"special\":null}],[{\"id\":7,\"type\":\"a\",\"special\":null},{\"id\":8,\"type\":\"b\",\"special\":null},{\"id\":9,\"type\":\"c\",\"special\":null}]],\"rng\":4165806054,\"nextId\":10,\"moves\":0,\"score\":0,\"cleared\":{\"a\":0,\"b\":0,\"c\":0},\"status\":\"playing\"}",
+    "action": {
+      "from": {
+        "row": 0,
+        "col": 0
+      },
+      "to": {
+        "row": 0,
+        "col": 1
+      }
+    }
+  },
+  "UNSHUFFLABLE": {
+    "seed": 1,
+    "state": "{\"version\":1,\"config\":{\"rows\":3,\"cols\":3,\"pieceTypes\":[\"a\",\"b\",\"c\",\"d\",\"e\",\"f\"],\"rules\":{\"matchLength\":3,\"createFour\":true,\"createFive\":true,\"createIntersection\":true,\"specialSwaps\":true,\"bombRadius\":1,\"comboLineRadius\":1},\"scoring\":{\"piecePoints\":10,\"specialBonus\":20,\"cascadeStep\":1},\"objectives\":[],\"moveLimit\":null,\"maxWaves\":100,\"shuffleAttempts\":1,\"generationAttempts\":100},\"board\":[[{\"id\":1,\"type\":\"d\",\"special\":null},{\"id\":2,\"type\":\"e\",\"special\":null},{\"id\":3,\"type\":\"b\",\"special\":null}],[{\"id\":4,\"type\":\"e\",\"special\":null},{\"id\":5,\"type\":\"e\",\"special\":null},{\"id\":6,\"type\":\"b\",\"special\":null}],[{\"id\":7,\"type\":\"a\",\"special\":null},{\"id\":8,\"type\":\"c\",\"special\":null},{\"id\":9,\"type\":\"e\",\"special\":null}]],\"rng\":3003918088,\"nextId\":10,\"moves\":0,\"score\":0,\"cleared\":{\"a\":0,\"b\":0,\"c\":0,\"d\":0,\"e\":0,\"f\":0},\"status\":\"playing\"}",
+    "action": {
+      "from": {
+        "row": 1,
+        "col": 2
+      },
+      "to": {
+        "row": 2,
+        "col": 2
+      }
+    }
+  }
+}
