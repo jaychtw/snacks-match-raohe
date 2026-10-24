@@ -1,5 +1,7 @@
-name: Publish to GitHub Pages (manual)
+name: Publish to GitHub Pages
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -10,6 +12,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publish:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[deploy]')
     runs-on: ubuntu-latest
     environment:
       name: github-pages

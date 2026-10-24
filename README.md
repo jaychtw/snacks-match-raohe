@@ -1,6 +1,6 @@
 # Snacks Match – Raohe | 小吃消消樂－饒河
 
-A bilingual browser match-3 game under the illuminated Raohe night-market gate: six snack identities, an 8×8 board, 15 levels across three chapters, and unlimited Free Play. This is a locally verified implementation candidate; human visual/gameplay acceptance and public release are pending.
+A bilingual browser match-3 game under the illuminated Raohe night-market gate: six snack identities, an 8×8 board, 15 levels across three chapters, and unlimited Free Play. The creative director approved the desktop/mobile visuals and the Hint/Shuffle substitution on 2026-10-24 and authorized autonomous GitHub Pages deployment. Release evidence and manual QA limits are recorded in [the release record](docs/RELEASE-v0.1.0.md).
 
 ## Develop
 
@@ -46,4 +46,4 @@ The core is pinned byte-for-byte to Match3 Core v1.0.0 at `9863f8e023a227540a584
 
 ## Release
 
-`npm run build` produces a static `dist/` with relative asset URLs compatible with GitHub Pages subpaths. CI is configured in `.github/workflows/ci.yml`. A separate **manually invoked** Pages workflow validates, deploys, and verifies the public assets/gameplay only when the owner runs it and Pages is configured for GitHub Actions. Source publication to `main` is separate from deploying the playable site. Local validation does not establish hosted CI success, a public deployment or live verification.
+`npm run build` produces a static `dist/` with relative asset URLs compatible with GitHub Pages subpaths. CI is configured in `.github/workflows/ci.yml`. A separate Pages workflow, started by manual dispatch or an explicit `[deploy]` commit on `main`, validates, deploys, and verifies the public assets/gameplay only when the owner runs it and Pages is configured for GitHub Actions. Source publication to `main` is separate from deploying the playable site. Local validation does not establish hosted CI success, a public deployment or live verification.

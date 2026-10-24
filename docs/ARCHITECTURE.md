@@ -27,10 +27,10 @@ The attached concept was a composition/mood reference, never inserted into gamep
 
 The 8×8 board is DOM buttons, not baked artwork. Each tile references its own deterministic sheet region and receives explicit special badges. Gate architecture scales independently. Mobile prioritizes a nearly viewport-wide board, moves the order sign above it and clips roof/wings inside the gate region so they cannot cover the HUD or cause page overflow. Larger pieces enables bounded scrolling and 44px+ cells; large direction buttons provide an alternative to small compact cells.
 
-## Deliberate differences and pending decisions
+## Accepted presentation differences
 
-The concept's hammer/rainbow inventory has no implementation contract in either baseline or core v1.0.0. Adding direct tile removal or consumable specials would require new rules. This candidate uses clearly labeled Hint, Shuffle, Pause, Restart and the existing engine's earned special pieces; it makes no inventory claim. Human acceptance of this presentation difference remains pending.
+The concept's hammer/rainbow inventory has no implementation contract in either baseline or core v1.0.0. Adding direct tile removal or consumable specials would require new rules. This candidate uses clearly labeled Hint, Shuffle, Pause, Restart and the existing engine's earned special pieces; it makes no inventory claim. The creative director explicitly accepted this substitution, desktop/mobile layouts, and the visuals on 2026-10-24.
 
 The baseline's 15 levels/three chapters, scores, move counts, progression, confirmations, free play and recovery conventions are retained. Names, objectives and tutorials refer to Raohe foods. Optional music is synthesized locally after interaction, with mute, effects and volume settings. No accounts, payments, analytics, remote fonts or runtime external services were added.
 
-This is a playable implementation candidate for visual/play review. No human visual gate, production acceptance, hosted CI success or deployment is inferred from local checks. Physical-device, screen-reader and independent player/linguistic/balance reviews remain open.
+Visual approval and autonomous deployment authorization were explicitly provided on 2026-10-24. Hosted CI for initial commit `89a53088fa0b08e474c4bbcb6b110393859b7ee9` passed in run `40089369106`. See `RELEASE-v0.1.0.md` for deployment evidence; none is inferred from local checks. Physical-device, screen-reader and independent player/linguistic/balance reviews remain open.

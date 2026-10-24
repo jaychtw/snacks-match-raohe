@@ -1,4 +1,6 @@
-# Local QA — Raohe 0.1.0 implementation candidate
+# Initial local QA — Raohe 0.1.0 implementation candidate
+
+Historical local validation record. The creative director subsequently approved the visuals, layouts and Hint/Shuffle substitution and authorized autonomous deployment. See [the release record](RELEASE-v0.1.0.md) for the current approval and publication status.
 
 Date: 2026-10-24 (Asia/Taipei). Prepared in `/workspace/snacks-match-raohe` on Node 24.19.0 / npm 11.9.0 using system Chromium. The repository began with an unborn `work` branch and no files or remote refs. All new project files remain in the working tree; there is no release commit. `evidence/artifact-manifest.json` identifies the exact source inputs and built assets by SHA-256 instead of inventing a commit.
 
