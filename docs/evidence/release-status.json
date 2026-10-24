@@ -1,0 +1,169 @@
+{
+  "observedAtUTC": "2026-10-24T11:36:15.240572+00:00",
+  "deployedCommit": "29886ca22efd0cb27b248aecc0415093e38cd4bb",
+  "liveURL": "https://jaychtw.github.io/snacks-match-raohe/",
+  "ciRun": "https://github.com/jaychtw/snacks-match-raohe/actions/runs/40090182293",
+  "deploymentRun": "https://github.com/jaychtw/snacks-match-raohe/actions/runs/40090182305",
+  "deploymentJob": "https://github.com/jaychtw/snacks-match-raohe/actions/runs/40090182305/job/120861085234",
+  "workflowConclusion": "success",
+  "evidenceSource": "Public GitHub Actions run status and exact job-step conclusions; live verification executed on GitHub-hosted Chromium with normal TLS, using the committed scripts/verify-site.mjs. Cloud execution machine could not directly access the API or Pages domain under its current egress policy.",
+  "steps": [
+    {
+      "name": "Set up job",
+      "number": "1",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:30:38Z",
+      "completed-at": "2026-10-24T11:30:39Z"
+    },
+    {
+      "name": "Run actions/checkout@v4",
+      "number": "2",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:30:39Z",
+      "completed-at": "2026-10-24T11:30:40Z"
+    },
+    {
+      "name": "Run actions/setup-node@v4",
+      "number": "3",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:30:40Z",
+      "completed-at": "2026-10-24T11:30:42Z"
+    },
+    {
+      "name": "Run npm ci",
+      "number": "4",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:30:42Z",
+      "completed-at": "2026-10-24T11:30:43Z"
+    },
+    {
+      "name": "Run npm test",
+      "number": "5",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:30:43Z",
+      "completed-at": "2026-10-24T11:30:45Z"
+    },
+    {
+      "name": "Run npm run build",
+      "number": "6",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:30:45Z",
+      "completed-at": "2026-10-24T11:30:47Z"
+    },
+    {
+      "name": "Run npx playwright install --with-deps chromium",
+      "number": "7",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:30:47Z",
+      "completed-at": "2026-10-24T11:31:06Z"
+    },
+    {
+      "name": "Run npm run test:browser",
+      "number": "8",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:31:06Z",
+      "completed-at": "2026-10-24T11:32:41Z"
+    },
+    {
+      "name": "Run actions/configure-pages@v5",
+      "number": "9",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:32:41Z",
+      "completed-at": "2026-10-24T11:32:41Z"
+    },
+    {
+      "name": "Run actions/upload-pages-artifact@v3",
+      "number": "10",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:32:41Z",
+      "completed-at": "2026-10-24T11:32:42Z"
+    },
+    {
+      "name": "Deploy",
+      "number": "11",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:32:42Z",
+      "completed-at": "2026-10-24T11:33:04Z"
+    },
+    {
+      "name": "Verify published gameplay and assets",
+      "number": "12",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:33:04Z",
+      "completed-at": "2026-10-24T11:33:39Z"
+    },
+    {
+      "name": "Run actions/upload-artifact@v4",
+      "number": "13",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:33:39Z",
+      "completed-at": "2026-10-24T11:33:42Z"
+    },
+    {
+      "name": "Post Run actions/setup-node@v4",
+      "number": "25",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:33:42Z",
+      "completed-at": "2026-10-24T11:33:42Z"
+    },
+    {
+      "name": "Post Run actions/checkout@v4",
+      "number": "26",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:33:42Z",
+      "completed-at": "2026-10-24T11:33:42Z"
+    },
+    {
+      "name": "Complete job",
+      "number": "27",
+      "conclusion": "success",
+      "started-at": "2026-10-24T11:33:42Z",
+      "completed-at": "2026-10-24T11:33:42Z"
+    }
+  ],
+  "publicVerification": {
+    "status": "passed",
+    "assetHashesMatched": 6,
+    "viewportLanguageCases": 8,
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "languages": [
+      "en",
+      "zh-TW"
+    ],
+    "checks": [
+      "real engine-authorized gameplay",
+      "exact engine/DOM/save equality",
+      "artwork decoding and asset responses",
+      "unobscured HUD and no page overflow",
+      "axe accessibility audits",
+      "exact reload persistence",
+      "separate Journey/Free Play persistence",
+      "language preference persistence",
+      "live language switching without state loss",
+      "touch-phone defeat/retry/victory/next-level/progression persistence"
+    ],
+    "pageErrors": 0,
+    "failedRequests": 0
+  },
+  "artifact": {
+    "name": "raohe-release-evidence",
+    "githubReportedSize": "39.6 MB",
+    "githubReportedSHA256": "95f9ad068ef62a6045b072039404ce59c3fb695b75c374561e1386b684f6da89",
+    "location": "Actions deployment run artifacts",
+    "archiveIndependentlyDownloaded": false
+  },
+  "manualUnverified": [
+    "physical iOS/Android touch behavior",
+    "actual Safari and Firefox browsers",
+    "screen readers",
+    "sustained ordinary-phone performance, battery and thermals",
+    "subjective audio/permission review",
+    "independent linguistic review",
+    "independent first-time-player and balance review"
+  ]
+}

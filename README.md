@@ -1,6 +1,8 @@
 # Snacks Match – Raohe | 小吃消消樂－饒河
 
-A bilingual browser match-3 game under the illuminated Raohe night-market gate: six snack identities, an 8×8 board, 15 levels across three chapters, and unlimited Free Play. The creative director approved the desktop/mobile visuals and the Hint/Shuffle substitution on 2026-10-24 and authorized autonomous GitHub Pages deployment. Release evidence and manual QA limits are recorded in [the release record](docs/RELEASE-v0.1.0.md).
+A bilingual browser match-3 game under the illuminated Raohe night-market gate: six snack identities, an 8×8 board, 15 levels across three chapters, and unlimited Free Play. **Play:** https://jaychtw.github.io/snacks-match-raohe/
+
+Released as v0.1.0 from `29886ca22efd0cb27b248aecc0415093e38cd4bb`. The creative director approved the desktop/mobile visuals and the Hint/Shuffle substitution on 2026-10-24 and authorized autonomous deployment. Exact-commit CI, Pages deployment and hosted public-site verification passed. Evidence and remaining manual QA limits are recorded in [the release record](docs/RELEASE-v0.1.0.md).
 
 ## Develop
 

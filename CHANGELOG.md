@@ -1,6 +1,13 @@
 # Changelog
 
-## 0.1.0 — local implementation candidate, 2026-10-24
+## 0.1.0 — released to GitHub Pages, 2026-10-24
+
+- Record explicit approval of visuals, desktop/mobile layouts and Hint/Shuffle substitution.
+- Deploy `29886ca22efd0cb27b248aecc0415093e38cd4bb` with successful exact-commit CI and Pages workflow.
+- Verify six public asset hashes, eight bilingual responsive gameplay cases, exact persistence/mode switching and a complete touch-phone failure/retry/victory/next-level flow on the published site.
+- Preserve physical-device, manual browser/screen-reader, sustained performance, linguistic and player/balance checks as unverified; see `docs/RELEASE-v0.1.0.md`.
+
+### Initial local candidate
 
 - Implement the Raohe edition from the supplied GDD and visual reference.
 - Integrate the unchanged pinned Match3 Core v1.0.0 artifact and reference-game functional conventions.
